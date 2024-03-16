@@ -1,0 +1,17 @@
+dept_name,location,id,id,name,department,salary
+Mech,Hyderabad,101,104,Manthesh,Civil,20000
+Mech,Hyderabad,101,103,Deepak,ECE,19000
+Mech,Hyderabad,101,102,Ashok,Mech,17000
+Mech,Hyderabad,101,101,Chandu,Mech,15000
+CSE,Banglore,102,104,Manthesh,Civil,20000
+CSE,Banglore,102,103,Deepak,ECE,19000
+CSE,Banglore,102,102,Ashok,Mech,17000
+CSE,Banglore,102,101,Chandu,Mech,15000
+ECE,Chennai,103,104,Manthesh,Civil,20000
+ECE,Chennai,103,103,Deepak,ECE,19000
+ECE,Chennai,103,102,Ashok,Mech,17000
+ECE,Chennai,103,101,Chandu,Mech,15000
+Civil,pune,104,104,Manthesh,Civil,20000
+Civil,pune,104,103,Deepak,ECE,19000
+Civil,pune,104,102,Ashok,Mech,17000
+Civil,pune,104,101,Chandu,Mech,15000

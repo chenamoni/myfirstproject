@@ -1,0 +1,67 @@
+Database --- training_nov_2023
+
+<<<<>>>>
+emp --- eid,ename,esal,edeptid
+1,sai,10000,IT
+2,John,24000,Marketing
+3,Jessica,15000,HR
+4,Akbar,13000,IT
+<<<<>>>>
+
+<<<<>>>>
+dept --- edeptid,loc
+IT,Hyd
+HR,NY
+Marketing,UK
+<<<<>>>>
+
+
+<<<<>>>>
+2023_hike --- eid,bonus,hike_amount
+1,550,2000
+2,700,1000
+3,350,2500
+4,600,2400
+<<<<>>>>
+-----
+
+
+Qns:
+1. WAQ to fetch the employee who are drawing more than 14000 ?
+
+select Ename from emp where Esal>14000;
++---------+
+| Ename   |
++---------+
+| Jhon    |
+| Jessica |
++---------+
+2. WAQ to fetch the employee who are working in Marketing?
+
+select Ename from emp where Edeptid="Marketing";
++-------+
+| Ename |
++-------+
+| Jhon  |
++-------+
+3. WAQ to print the employee id's who got more than 1500 hike_amount?
+
+mysql> select Eid from 2023_Hike where Hike_amount >1500;
++------+
+| Eid  |
++------+
+|    1 |
+|    3 |
+|    4 |
++------+
+
+
+
+
+
+
+
+create table Dept(
+     Edeptid varchar(30),
+     Location varchar(30)
+    );
